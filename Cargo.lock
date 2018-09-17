@@ -1,0 +1,30 @@
+[[package]]
+name = "wia-example"
+version = "0.1.0"
+dependencies = [
+ "winapi 0.3.5 (git+https://github.com/brandonhamilton/winapi-rs?branch=wia)",
+]
+
+[[package]]
+name = "winapi"
+version = "0.3.5"
+source = "git+https://github.com/brandonhamilton/winapi-rs?branch=wia#eb9d502abace5212681663e4a80cfbfdd4de5cc7"
+dependencies = [
+ "winapi-i686-pc-windows-gnu 0.4.0 (git+https://github.com/brandonhamilton/winapi-rs?branch=wia)",
+ "winapi-x86_64-pc-windows-gnu 0.4.0 (git+https://github.com/brandonhamilton/winapi-rs?branch=wia)",
+]
+
+[[package]]
+name = "winapi-i686-pc-windows-gnu"
+version = "0.4.0"
+source = "git+https://github.com/brandonhamilton/winapi-rs?branch=wia#eb9d502abace5212681663e4a80cfbfdd4de5cc7"
+
+[[package]]
+name = "winapi-x86_64-pc-windows-gnu"
+version = "0.4.0"
+source = "git+https://github.com/brandonhamilton/winapi-rs?branch=wia#eb9d502abace5212681663e4a80cfbfdd4de5cc7"
+
+[metadata]
+"checksum winapi 0.3.5 (git+https://github.com/brandonhamilton/winapi-rs?branch=wia)" = "<none>"
+"checksum winapi-i686-pc-windows-gnu 0.4.0 (git+https://github.com/brandonhamilton/winapi-rs?branch=wia)" = "<none>"
+"checksum winapi-x86_64-pc-windows-gnu 0.4.0 (git+https://github.com/brandonhamilton/winapi-rs?branch=wia)" = "<none>"

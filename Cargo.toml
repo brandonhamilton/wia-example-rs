@@ -1,0 +1,10 @@
+[package]
+name = "wia-example"
+version = "0.1.0"
+authors = ["Brandon Hamilton <brandon.hamilton@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[target.'cfg(windows)'.dependencies]
+winapi = { git = "https://github.com/brandonhamilton/winapi-rs", branch = "wia", features = ["combaseapi", "fileapi", "objbase", "oleauto", "wia", "winerror"] }
